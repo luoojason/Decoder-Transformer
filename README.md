@@ -1,6 +1,6 @@
 # SafeTopModel – Toy-Data Quick Start
 
-This repository contains the **SafeTopModel** reference implementation ready for real market data.
+This repository contains the **SafeTopModel**.
 
 ## 1. Install Dependencies
 ```bash
