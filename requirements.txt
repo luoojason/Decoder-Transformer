@@ -1,0 +1,13 @@
+numpy
+pandas
+polars
+torch
+pytorch-lightning
+cvxpy
+cvxpylayers
+scipy
+pyarrow
+transformers
+yfinance
+simfin
+newsapi-python

@@ -189,7 +189,7 @@ def main():
         print("COMPLETE")
         print("="*60)
         print(f"Generated {file_count} daily files with {symbol_count} symbols")
-        print(f"Ready for: python real_dry_fit.py --data real_data --out_dir ./validation")
+        print(f"Ready for: python dry_fit.py --data real_data --out_dir ./validation")
     else:
         print("\nFAILED: No data downloaded")
 

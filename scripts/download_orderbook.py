@@ -211,7 +211,7 @@ def main():
     print("="*60)
     print(f"Generated {file_count} orderbook files")
     print(f"All data sources ready: prices, funda, news, orderbook")
-    print(f"\n✅ Ready for: python real_dry_fit.py --data real_data --out_dir ./validation")
+    print(f"\n✅ Ready for: python dry_fit.py --data real_data --out_dir ./validation")
 
 if __name__ == "__main__":
     main()

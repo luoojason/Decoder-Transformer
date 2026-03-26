@@ -7,7 +7,7 @@ import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from SafeTopModel import SafeTopModel, SafeDataModule
-from real_train import BootstrappedSharpeCallback
+from train import BootstrappedSharpeCallback
 
 def test_train_loop():
     try:

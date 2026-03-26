@@ -127,7 +127,7 @@ def main():
     print("="*60)
     print(f"Generated {file_count} news files")
     print(f"All data sources ready: prices, funda, news")
-    print(f"\nReady for: python real_dry_fit.py --data real_data --out_dir ./validation")
+    print(f"\nReady for: python dry_fit.py --data real_data --out_dir ./validation")
 
 if __name__ == "__main__":
     main()

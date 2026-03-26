@@ -17,7 +17,7 @@ def test_roll_execution():
     # We can import `run_roll` and mock the checkpoint loading.
     
     sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    from real_roll import run_roll
+    from roll import run_roll
     from unittest.mock import MagicMock, patch
     
     # Mock model loading
@@ -41,7 +41,7 @@ def test_roll_execution():
         mock_load.return_value = mock_model
         
         # Mock data loading
-        with patch('real_roll.get_latest_data') as mock_data:
+        with patch('roll.get_latest_data') as mock_data:
             mock_data.return_value = {
                 'micro': torch.randn(1, N, 5, 60),
                 'micro_last': torch.randn(1, N, 4),
